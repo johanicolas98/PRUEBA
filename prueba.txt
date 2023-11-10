@@ -1,5 +1,5 @@
 VLAN 45 name QinQ
-
+VLAN 50 name QinQ
 
 Q-in-Q Untagged
 
