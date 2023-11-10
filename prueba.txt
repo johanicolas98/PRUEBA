@@ -1,1 +1,10 @@
 VLAN 45 name QinQ
+
+
+Q-in-Q Untagged
+
+bridge add 1-1-1-2/gpononu gtp 1000 downlink vlan 200 slan 100 stagged eth [1-4]
+
+Q-in-Q Tagged
+
+bridge add 1-1-1-2/gpononu gtp 1000 downlink vlan 200 slan 100 stagged eth [1-4] uni-vlan 200
